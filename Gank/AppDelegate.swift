@@ -17,6 +17,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        UINavigationBar.appearance().setBackgroundImage(UIImage(named: "简约背景"), forBarMetrics: UIBarMetrics.Default)
+//        UIBarButtonItem.appearance().setBackButtonBackgroundImage(UIImage(named: "Bitmap"), forState: UIControlState.Application, barMetrics: UIBarMetrics.Default)
         return true
     }
 
